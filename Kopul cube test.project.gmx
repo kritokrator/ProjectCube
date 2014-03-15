@@ -22,9 +22,12 @@
     <sprite>sprites\spr_pentagon_death</sprite>
     <sprite>sprites\spr_cube_bulet</sprite>
     <sprite>sprites\spr_pentagon_bulet</sprite>
+    <sprite>sprites\spr_kolo</sprite>
   </sprites>
   <backgrounds name="background"/>
-  <paths name="paths"/>
+  <paths name="paths">
+    <path>paths\path0</path>
+  </paths>
   <objects name="objects">
     <objects name="tekst obj">
       <object>objects\obj_intro0</object>
@@ -43,7 +46,12 @@
     <object>objects\obj_pentagon_death</object>
     <object>objects\obj_pentagon_bulet</object>
     <object>objects\obj_controler</object>
+    <object>objects\obj_kolo</object>
+    <object>objects\obj_texter</object>
   </objects>
+  <timelines name="timelines">
+    <timeline>timelines\timeline1</timeline>
+  </timelines>
   <rooms name="rooms">
     <room>rooms\menu</room>
     <room>rooms\room0</room>
